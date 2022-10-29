@@ -4,6 +4,7 @@ import android.media.MediaPlayer
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.VideoView
 import com.dingtuanyun.playaudiotest.databinding.ActivityMainBinding
 
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity() {
             if (!binding.videoView.isPlaying){
                 binding.videoView.start()  //开始播放
             }
+            Log.d("MainActitity","正在播放视频...")
         }
 
         binding.videoPause.setOnClickListener {
