@@ -14,18 +14,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-         binding.webViewBtn.setOnClickListener {
-
-         }
-
-         binding.networkBtn.setOnClickListener {
-
-         }
-
-         binding.getAppDataBtn.setOnClickListener {
-
-
-         }
 
 
 
